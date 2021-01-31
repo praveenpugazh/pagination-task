@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+
+.lists {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  flex-direction: column;
+}
+
+.list-items {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  width: 100%;
+  padding: 12px;
+  margin: 2px 0;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+.pages {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 5px 10px;
+  background-color: rgb(46, 132, 243);
+  color: white;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(46, 132, 243, 0.6);
+}
+
+.btn.active {
+  background-color: tomato;
+}
